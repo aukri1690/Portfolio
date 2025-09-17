@@ -1,6 +1,10 @@
+import NavigationMenu from "@/components/NavigationMenu";
+
 const Home = () => {
   return (
-    <h1>Hello Portfolio</h1>
+    <>
+      <NavigationMenu />
+    </>
   );
 };
 
