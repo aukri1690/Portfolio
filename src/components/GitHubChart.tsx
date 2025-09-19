@@ -14,13 +14,7 @@ const GitHubChart = () => {
     .catch(err => console.error(err));
   }, []);
 
-  if (pullRequestCount === null) return <div>Loading...</div>;
-
-  return(
-    <>
-    <p>PR総数：{pullRequestCount}</p>
-    </>
-  );
+  return (pullRequestCount === null) ? (<div>Now Loading...</div>) : (<p>PR総数：{pullRequestCount}</p>);
 };
 
 export default GitHubChart;
