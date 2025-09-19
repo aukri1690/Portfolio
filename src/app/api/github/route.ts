@@ -13,11 +13,8 @@ export async function GET() {
       query {
         viewer {
           login
-          pullRequests(last: 5) {
-            nodes {
-              title
-              createdAt
-            }
+          pullRequests {
+            totalCount
           }
         }
       }
