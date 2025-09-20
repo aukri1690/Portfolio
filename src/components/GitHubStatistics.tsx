@@ -19,7 +19,7 @@ type PRResponse = {
   };
 };
 
-const GitHubChart = () => {
+const GitHubStatistics = () => {
   const [pullRequestCount, setPullRequestCount] = useState<number | null>(null);
   const [chartData, setChartData] = useState<any>(null);
 
@@ -81,7 +81,7 @@ const GitHubChart = () => {
     );
 };
 
-export default GitHubChart;
+export default GitHubStatistics;
 
 const groupByDate = (prs: PRNode[]) => {
   const counts: Record<string, number> = {};
