@@ -10,17 +10,27 @@ const GET = async () => {
     });
 
     const query = `
-      query {
+      query($cursor: String) {
         viewer {
-          login
-          pullRequests {
+          pullRequests(
+            first: 100
+            after: $cursor
+            orderBy: { field: CREATED_AT, direction: ASC }
+          ) {
             totalCount
+            nodes {
+              createdAt
+            }
+            pageInfo {
+              hasNextPage
+              endCursor
+            }
           }
         }
       }
     `;
 
-    const data = await client(query);
+    const data = await client(query, { cursor: null});
 
     return NextResponse.json(data);
   } catch (error) {
