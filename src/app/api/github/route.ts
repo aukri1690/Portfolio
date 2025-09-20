@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { graphql } from '@octokit/graphql';
 
-export async function GET() {
+const GET = async () => {
   try {
     const client = graphql.defaults({
       headers: {
@@ -27,4 +27,6 @@ export async function GET() {
     console.error(error);
     return NextResponse.json({ error: 'Failed to fetch data' }, { status: 500 });
   }
-}
+};
+
+export { GET };
