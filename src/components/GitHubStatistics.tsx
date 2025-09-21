@@ -37,7 +37,7 @@ const GitHubStatistics = () => {
           labels: grouped.map(item => item.date),
           datasets: [
             {
-              label: "PR数",
+              label: "Pull requests Over Time",
               data: grouped.map(item => item.count),
               borderColor: "rgba(138, 3, 249, 1)",
               backgroundColor: "rgba(138, 3, 249, 1)",
@@ -60,15 +60,9 @@ const GitHubStatistics = () => {
       </Flex>
     ) : (
       <>
-      <Flex justify='center' align='center' direction='row' minH='100vh' gap={8}>
-        <Card.Root textAlign='center' variant='outline' width='300px' height='300px'>
-          <Card.Title fontSize='3xl' fontWeight={900} mt={7} mb={-7}>Total PRs</Card.Title>
-          <Flex flex='1' justify='center' align='center'>
-            <Card.Title fontSize='8xl' fontFamily='Impact' color='purple.600'>{pullRequestCount}</Card.Title>
-          </Flex>
-        </Card.Root>
-        <Card.Root textAlign='center' variant='outline' width='480px' height='300px' p={5}>
-          <Card.Title fontSize='3xl' fontWeight={900} mt={3} mb={3}>PRs Over Time</Card.Title>
+      <Flex justify='center' align='center' minH='100vh'>
+        <Card.Root textAlign='center' variant='outline' width='1080px' height='540px' p={5}>
+          <Card.Title fontSize='3xl' fontWeight={900} mt={3} mb={3}>Total Pull requests：{pullRequestCount}</Card.Title>
           <Box h='100%'>
             <Line
               data={chartData}
