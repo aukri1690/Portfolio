@@ -1,13 +1,11 @@
-最終更新：2025年 9月22日 12時45分<br> 
+最終更新：2025年 9月23日 0時52分
 
 ## サイトに訪れる🎉
 以下のURLよりアクセスすることができます。<br>
 https://aukri1690-portfolio.vercel.app
 
 ## サンプル
-<video autoPlay loop muted src=https://github.com/user-attachments/assets/467e2487-02ff-40b4-b286-5f08772450d1></video>
-
-![](https://github.com/user-attachments/assets/97374e7d-6ec0-4578-a771-35cf63937b87) 
+![](https://github.com/user-attachments/assets/c28919f9-7885-4614-97d7-41f56ae8950b) 
 
 ## 使用技術
 - TypeScript 5.9.2
