@@ -18,16 +18,16 @@ const Profile = () => {
       <Text mt={3} fontSize='lg'>-- Tech Stack --</Text>
       <Flex align='center' direction='row' gap={2} mt={4}>
         <Tooltip content="TypeScript">
-          <Icon as={SiTypescript} boxSize={9} />
+          <Icon as={SiTypescript} boxSize={9} color='#3178C6' />
         </Tooltip>
         <Tooltip content="React">
-          <Icon as={FaReact} boxSize={9} />
+          <Icon as={FaReact} boxSize={9} color='#61DAFB' />
         </Tooltip>
         <Tooltip content="Next.js">
           <Icon as={RiNextjsLine} boxSize={9} />
         </Tooltip>
         <Tooltip content="GraphQL">
-          <Icon as={GrGraphQl} boxSize={9} />
+          <Icon as={GrGraphQl} boxSize={9} color='#E10098' />
         </Tooltip>
       </Flex>
     </Flex>
