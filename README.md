@@ -1,11 +1,11 @@
-最終更新：2025年 9月23日 11時23分
+最終更新：2025年 9月23日 11時53分
 
 ## サイトに訪れる🎉
 以下のURLよりアクセスすることができます。<br>
 https://aukri1690-portfolio.vercel.app
 
 ## サンプル
-![](https://github.com/user-attachments/assets/c7d37099-7969-4a9e-a810-8e03a323e39e) 
+![](https://github.com/user-attachments/assets/cba67a96-0bda-440e-8518-fc7932a2ca7f) 
 
 ## 使用技術
 - TypeScript 5.9.2
