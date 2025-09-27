@@ -16,11 +16,11 @@ const Profile = () => {
   return (
     <Flex align='center' direction='column' >
       <Image src='/icon.jpg' alt='Profile Icon' boxSize='250px' borderRadius='full' fit='cover' mt={2} />
-      <Text mt={3} fontSize='lg'>-- Profile --</Text>
+      <Text mt={3} fontSize='lg'>-- 基本情報 --</Text>
       <Text mt={3}>永田浬久</Text>
       <Text mt={1}>2005年1月16日</Text>
       <Text mt={1}>名古屋市立大学 データサイエンス学部 3年</Text>
-      <Text mt={3} fontSize='lg'>-- Tech Stack --</Text>
+      <Text mt={3} fontSize='lg'>-- 使用技術 --</Text>
       <Flex align='center' direction='row' gap={3} mt={4}>
         <Tooltip content="TypeScript">
           <Icon as={SiTypescript} boxSize={9} />
