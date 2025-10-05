@@ -14,5 +14,6 @@ https://aukri1690-portfolio.vercel.app
 - Chakra UI 3.27.0
 
 ## 注意⚠️
-PC版Chromeでの閲覧を推奨しています。<br>
+Chromeでの閲覧を推奨しています。<br>
 ※他ブラウザではサイトが正常に動作しない場合があります。
+
