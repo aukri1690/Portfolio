@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <>
       <BackGroundVideo />
-      <Flex justify='center' align='center' direction='column' minH='100vh'>
+      <Flex justify='center' align='center' direction='column' minH='100vh' px={{ base: 4, md: 6 }} gap={{ base: 6, md: 8 }}>
       <Profile />
       <RouterButton />
       </Flex>
